@@ -137,15 +137,24 @@ p {
     font-size: .875em;
     line-height: 1.285;
 }
+
+img {
+ width: 100%;
+}
+ 
+figure {
+ margin: 0;
+}
  
 address {
     font-style: normal;
 }
  
-  .content-wrapper {
+.content-wrapper {
         width: 90%;
         margin: 50px 0;
-   }
+}
+
   
   /* ------------ Base Header - Footer Styles -----------*/
 
@@ -231,7 +240,7 @@ address {
       align-items: center;
    }
 
-   footer .copyright {
+   footer .copyright { 
       margin: 20px 0;
    }  
 
@@ -244,7 +253,11 @@ address {
         display: flex;
         justify-content: center;
         flex-flow: row wrap;
-   }
+        background: url('../img/unpluggedretreat.png');
+        background-size: cover;
+        background-position: center;
+        min-height: 500px;
+    }
 
    .hero-area h1 {
         font-size: 2.25em;
@@ -292,6 +305,9 @@ address {
     /* Features */
 
    .features {
+      background: url('../img/unpluggedfeature.png');
+      background-size: cover;
+      background-position: center;
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
@@ -324,7 +340,7 @@ address {
       background-color: #2a423a;
       display: flex;
       justify-content: center;
-      align-items: center;
+      flex-flow: row wrap;
     }
 
     .reviews h2 {
